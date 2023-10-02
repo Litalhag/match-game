@@ -1,8 +1,37 @@
-# React + Vite
+.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# Match Game
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+
+The Match Game is an interactive application that presents users with a series of images, each accompanied by a description. The interface integrates a scoring system for positive and negative feedback, allowing users to express their sentiments towards each displayed item.
+
+## Features
+
+- **Top Menu**: Displays scores for the user's reactions. It highlights a positive and a negative score, providing immediate feedback on user responses.
+
+- **Center Display**: Showcases an image alongside its description, occupying a central position for prominent visibility.
+
+- **Bottom Menu**: Contains two buttons - 'True' and 'False', which enable users to navigate through the items while registering their feedback. Additionally, there's a 'Back' button, allowing users to return to the home page and view game instructions.
+
+- **Feedback Mechanism**: On selecting an option from the bottom menu ('True' or 'False'), the application transitions to the next image while simultaneously updating the respective score in the top menu.
+
+- **React Router**: Seamlessly navigate through different sections of the app with the integrated React Router.
+
+![Reaction Feedback](https://github.com/Litalhag/Goth-Shoes-app/assets/130139673/fdddcfbc-42e8-43f3-8e51-35b7c74f29f8)
+
+![App Interface](https://github.com/Litalhag/Goth-Shoes-app/assets/130139673/f63d22c2-d4ad-4d9c-be72-20e6bc10c306)
+
+## Live Demo
+
+Experience the app's functionality in real-time: [Match Game Live Demo](https://food-match.netlify.app/)
+
+## Repository
+
+For a more detailed understanding of the project's structure, visit the [GitHub Repository](https://github.com/Litalhag/match-game).
+
+---
+
+.
