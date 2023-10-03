@@ -400,6 +400,11 @@ ul {
   border-radius: var(--borderRadius);
 }
 
+.game-status {
+  text-align: center;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 992px) {
   .section-center {
     grid-template-columns: 1fr 1fr;
