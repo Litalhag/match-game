@@ -56,7 +56,9 @@ const Game = () => {
         {gameStatus === 'win' && (
           <h2 className="game-status">Game over! You Win</h2>
         )}
-        {gameStatus === 'lose' && <h2>Game over! You Lose</h2>}
+        {gameStatus === 'lose' && (
+          <h2 className="game-status">Game over! You Lose</h2>
+        )}
       </main>
     </>
   )
